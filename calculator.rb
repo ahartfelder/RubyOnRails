@@ -1,18 +1,18 @@
 # Methods
 def add(n1, n2) 
-    n1 + n2  
+  n1 + n2  
 end
 def sub(n1, n2)  
-    n1 - n2  
+  n1 - n2  
 end
 def mul(n1, n2)  
-    n1 * n2  
+  n1 * n2  
 end
 def div(n1, n2)  
-    n1 / n2  
+  n1 / n2  
 end
 def mod(n1, n2)  
-    n1 % n2  
+  n1 % n2  
 end
 
 # Header
@@ -37,28 +37,27 @@ puts
 
 # Conditionals and Methods call
 if choice == "1"
-    operator = "+"
-    result = add(num_1, num_2)
+  operator = "+"
+  result = add(num_1, num_2)
 elsif choice == "2"
-    operator = "-"
-    result = sub(num_1, num_2)
+  operator = "-"
+  result = sub(num_1, num_2)
 elsif choice == "3"
-    operator = "*"
-    result = mul(num_1, num_2)
+  operator = "*"
+  result = mul(num_1, num_2)
 elsif choice == "4"
-    operator = "/"
-    result = div(num_1, num_2)
+  operator = "/"
+  result = div(num_1, num_2)
 elsif choice == "5"
-    operator = "%"
-    result = mod(num_1, num_2)
+  operator = "%"
+  result = mod(num_1, num_2)
 else
-    result = "Invalid Option!"
+  result = "Invalid Option!"
 end
 
 # Answer
 if result.instance_of?(Float)
-    puts "The result of #{num_1} #{operator} #{num_2} is equal to #{result}."
+  puts "The result of #{num_1} #{operator} #{num_2} is equal to #{result}."
 else
-    puts result
+  puts result
 end
-
