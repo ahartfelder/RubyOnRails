@@ -40,3 +40,6 @@ puts symbol_1
 symbol_2 = :example
 puts symbol_1.object_id
 puts symbol_2.object_id
+
+# Time
+puts Time.now
